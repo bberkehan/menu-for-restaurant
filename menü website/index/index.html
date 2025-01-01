@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+            /*Menu*/
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            header{
+                background-color: black;
+                padding: 20px 25px;
+            }
+            nav{
+                display: inline-block;
+                width: calc(100% - 103px);
+                text-align: right;
+            }
+            nav ul{
+                list-style-type: none;
+            }
+            nav ul li{
+                display: inline-block;
+                margin: 10px 25px;
+            }
+            .logo{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 22px;
+            }
+            nav ul li a{
+                text-decoration: none;
+                color: white;
+                padding: 15px 25px;
+                font-size: 22px;
+            }
+            nav ul li a:hover{
+                background-color: white;
+                color: black;
+            }
+            /*menü altı*/
+
+            #section-1{
+                background-image: url(resimler/menüresmi.jpg);
+                background-image: linear-gradient((rgba(0,0,0,0,8),rgba(0,0,0,0.8)));
+                background-position: top;
+                padding: 12px;
+                height: 850px;
+                width: 100%;
+                background-size: cover;
+
+            }
+            .btn-s1{
+                margin-left: 37%;
+                margin-top: 20%;
+                background-color: #E94560;
+                color: white;
+                padding: 25px 20px;
+                font-size: 20px;
+                border-radius: 6px;
+                transition: color 1s;
+            }
+            .btn-s1:hover{
+                color: black;
+            }
+            /*card*/
+
+            #section-2{
+                display: flex;
+                justify-content: space-around;
+                margin: 200px 0;
+            }
+            .card{
+                width: 20%;
+                box-shadow: 0 5pc 9px 0 rgba(0,0,0,0.4);
+                border-radius: 6px;
+
+            }
+            .card:hover{
+                opacity: 0.7;
+            }
+            .container{
+                padding: 5px 20px;
+            }
+           .container p{
+                margin: 15px 0;
+           }
+           img{
+                border-radius: 6px 6px 0 0;
+                width: 100%;
+           }
+           p{
+                font-size: 19px;
+           }
+           #section-3{
+                 display: flex;
+                 justify-content: space-around;
+                 margin: 200px 0;
+           }
+           footer{
+                background-color: black;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+                padding: 20px 0;
+           }
+           
+           
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">LOGO</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Menü</a></li>
+                    <li><a href="#">İçecekler</a></li>
+                    <li><a href="#">Tatlılar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="section-1">
+                <button class="btn-s1">Menüler</button>
+
+            </section>
+            <section id="section-2">
+                <div class="card">
+                    <img src="resimler/mix-grill-7414547_1280.jpg" alt="">
+                    <div class="container">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="resimler/mix-grill-7414547_1280.jpg" alt="">
+                    <div class="container">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="resimler/mix-grill-7414547_1280.jpg" alt="">
+                    <div class="container">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="section-3">
+                <div class="card">
+                    <img src="resimler/mix-grill-7414547_1280.jpg" alt="">
+                    <div class="container">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="resimler/mix-grill-7414547_1280.jpg" alt="">
+                    <div class="container">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="resimler/mix-grill-7414547_1280.jpg" alt="">
+                    <div class="container">
+                        <h2>Lorem, ipsum.</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            powered by berkehan
+        </footer>
+    </body>
+</html>
